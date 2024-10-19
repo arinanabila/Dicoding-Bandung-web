@@ -25,6 +25,7 @@ nav ul{
     padding-inline: 4rem;
     display: flex;
     gap: 2rem;
+    
 }
 nav a{
     font-size: 18px;
@@ -43,7 +44,7 @@ nav li{
 }
 
 .jumbotron{
-    font-size: 20px;
+    font-size: 35px;
     padding: 60px;
     background-color: #00c8eb;
     text-align: center;
@@ -55,6 +56,10 @@ nav li{
     display: flex;
     flex-flow: column nowrap;
     gap: 1rem 2rem;
+}
+
+p{
+    text-align: justify;
 }
 
 aside{
