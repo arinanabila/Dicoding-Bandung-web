@@ -44,11 +44,16 @@ nav li{
 }
 
 .jumbotron{
-    font-size: 35px;
+    font-size: 20px;
     padding: 60px;
     background-color: #00c8eb;
     text-align: center;
     color: white;
+    display: flex; /* Add flexbox */
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 300px; /* Set a fixed height if necessary */
 }
 
 #content{
@@ -99,6 +104,10 @@ footer{
     background-color: #00a2c6;
     text-align: center;
     font-weight: bold;
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100px; /* Optional: Adjust height as needed */
 }
 
 @media screen and (max-width: 1200px){
